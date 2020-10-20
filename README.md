@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This webpage implemented Django,a web-application tools in python, to build a squirrel tracker that allows users to add, update, and delete squirrel data as well as visualizing their locations on the map.
+This webpage implemented Django,a web-application tools in python, to build a squirrel tracker that allows users to add, update, and delete squirrel data as well as visualize their locations on the map.
 
 [**Link**](https://) for the Squirrel Tracker application page.
 
