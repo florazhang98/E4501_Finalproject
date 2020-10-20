@@ -15,19 +15,19 @@ This data set contains data 3,023 sightings, including the geographic coordinate
 ## API
 
 ### Map View    
-[Map View](https://my-project1-254718.appspot.com/map/)   
+[Map View](https://)   
 
 ### Sightings 
-[Sightings](https://my-project1-254718.appspot.com/sightings/)
+[Sightings](https:/)
 
 ### Stats of squirrels
-[Stats of squirrels](https://my-project1-254718.appspot.com/sightings/stats)
+[Stats of squirrels](https://)
 
 ### Add squirrels
-[Add squirrels](https://my-project1-254718.appspot.com/sightings/add/)
+[Add squirrels](https)
 
 ### Edit a specific squirrel
-[Edit a specific squirrel](https://my-project1-254718.appspot.com/sightings/37F-PM-1014-03/)
+[Edit a specific squirrel](https://m)
 
 ## Dependencies
 - [Django](https://www.djangoproject.com)
