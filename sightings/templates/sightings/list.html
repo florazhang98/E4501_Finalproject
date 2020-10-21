@@ -4,13 +4,50 @@
     <head>
         <meta charset="UTF-8">
         <title>Squirrel</title>
+        <style>
+        .h {
+          padding: 40px;
+          text-align: center;
+          background: #87CEFA;
+          color: white;
+          font-size: 15px;
+          font-family: 'Marker Felt', fantasy;
+        }
+
+        .b {
+          padding: 10px;
+          text-align: center;
+          background: #87CEFA;
+          color: white;
+          font-size: 15px;
+          font-family: 'Marker Felt', fantasy;
+          display: inline-block;
+        }
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        } 
+
+        th {
+          height: 120px;
+          font-weight: bold
+        }
+        table, th, td {
+          border: 1px solid black;
+        }
+    
+        </style>
     </head>
     <body>
+        <header class="h">
+            <h1>Squirrel Data</h1>
+        </header>
+
         <main>
-
-        <p><a href="add/", class="button">ADD ANOTHER SQUIRREL!</a></p>
-
-        <table id='squirrels'>
+        <br>
+        <p><a href="add/", class="b">ADD ANOTHER SQUIRREL!</a></p>
+        <br>
+        <table>
             <tr>
                 <th>Unique_Squirrel_ID</th>
                 <th>Latitude</th> 

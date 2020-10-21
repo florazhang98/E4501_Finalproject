@@ -4,14 +4,29 @@
     <head>
         <meta charset="UTF-8">
         <title>Squirrel</title>
+        <style>
+        .h {
+          padding: 40px;
+          text-align: center;
+          background: #87CEFA;
+          color: white;
+          font-size: 15px;
+          font-family: 'Marker Felt', fantasy
+        }
+        </style>
     </head>
 
     <body>
 
+        <header class="h">
+            <h1>General Stats about the Sightings</h1>
+        </header>
+        <br>
         <li>We have a total of {{total}} fluffy  squirrel observations.</li>
-      	<li>The maxiimum latitude is {{lattitude.maximum}}</li>
+	<li>Their age distribution is: {{age}}</li>
+      	<li>The maximum latitude is {{lattitude.maximum}}</li>
       	<li>The maximum longitude is {{longitude.maximum}}</li>
-      	<li>The shift is {{shift}}</li>
+      	<li>The locations are {{location}}</li>
      	<li>The are running: {{running}}</li>
 
     </body>

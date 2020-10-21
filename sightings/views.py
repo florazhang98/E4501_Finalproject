@@ -46,16 +46,16 @@ def add_sq(request):
 def stats(request):
 	squirrels = Squirrel.objects.all()
 	total = len(squirrels)
-	lattitude = squirrels.aggregate(minimum=Min('Latitude'),maximum=Max('Latitude'))
-	longitude = squirrels.aggregate(minimum=Min('Longitude'),maximum=Max('Longitude'))
-	primary_fur_color =list(squirrels.values_list('Primary_Fur_Color').annotate(Count('Primary_Fur_Color')))
+	lattitude = squirrels.aggregate(maximum=Max('Latitude'))
+	longitude = squirrels.aggregate(maximum=Max('Longitude'))
+	age =list(squirrels.values_list('Age').annotate(Count('Age')))
 	running = list(squirrels.values_list('Running').annotate(Count('Running')))
-	shift = list(squirrels.values_list('Shift').annotate(Count('Shift')))
+	location = list(squirrels.values_list('Location').annotate(Count('Location')))
 	context = {'total': total,
 		'lattitude': lattitude,
 		'longitude': longitude,
-		'primary_fur_color': primary_fur_color,
+		'age': age,
 		'running': running,
-		'shift': shift,
+		'location': location,
 		}
 	return render(request, 'sightings/stats.html', context)
