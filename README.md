@@ -40,6 +40,6 @@ This data set contains data 3,023 sightings, including the geographic coordinate
 Group Name: Flora & Jessica
 Section: IEORE4501_001_2020_3 
 
-Contributors: Lou Zheng  Zhaoyu Zhang
+Contributors: Jessica Lou Zheng  Zhaoyu Zhang
 
 UNIs: jl5776      zz2772
