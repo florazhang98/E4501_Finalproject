@@ -28,6 +28,8 @@ Section: IEORE4501_001_2020_3
 
 link:(http://35.226.9.170/sightings/)
 
+link:(http://35.226.9.170/map/)
+
 Contributors: Jessica Lou Zheng  Zhaoyu Zhang
 
 UNIs: jl5776      zz2772
